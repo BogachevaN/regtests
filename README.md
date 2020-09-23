@@ -1,6 +1,6 @@
 #### Запуск тестов
 
-clean install test
+*clean install test*
 
 #### Отчеты Allure
 
