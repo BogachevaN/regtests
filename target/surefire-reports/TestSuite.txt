@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 62, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 289.888 s <<< FAILURE! - in TestSuite
+ru.mail.regtest2020.tests.RegistrationTests.fillEmailCorrectDataTest[ivan@mail_mail.ru ](5)  Time elapsed: 0.79 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillEmailCorrectDataTest(RegistrationTests.java:150)
+
+ru.mail.regtest2020.tests.RegistrationTests.fillEmailCorrectDataTest[IVAN@почта.рф](8)  Time elapsed: 0.679 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillEmailCorrectDataTest(RegistrationTests.java:150)
+
+ru.mail.regtest2020.tests.RegistrationTests.fillFirstNameIncorrectDataTest[2](7)  Time elapsed: 5.589 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillFirstNameIncorrectDataTest(RegistrationTests.java:111)
+
+ru.mail.regtest2020.tests.RegistrationTests.fillFirstNameIncorrectDataTest[=](8)  Time elapsed: 5.553 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillFirstNameIncorrectDataTest(RegistrationTests.java:111)
+
+ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest[Булкин2](1)  Time elapsed: 5.674 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest(RegistrationTests.java:85)
+
+ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest[Булкин+](2)  Time elapsed: 5.564 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest(RegistrationTests.java:85)
+
+ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest[Булкин*!](3)  Time elapsed: 5.67 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest(RegistrationTests.java:85)
+
+ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest[Bulkin12](5)  Time elapsed: 5.81 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest(RegistrationTests.java:85)
+
+ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest[Bulkin%](6)  Time elapsed: 5.554 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest(RegistrationTests.java:85)
+
+ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest[2](7)  Time elapsed: 5.502 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest(RegistrationTests.java:85)
+

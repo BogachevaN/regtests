@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Registration_and_login_tests">
+              <span class="suite-name border-failed">Registration and login tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Registration_and_login_tests">
+                    <span>C:\Centr\regtests\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Registration_and_login_tests">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Registration_and_login_tests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Registration_and_login_tests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Registration_and_login_tests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Registration_and_login_tests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Registration_and_login_tests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">62 methods, 10 failed,   52 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Registration_and_login_tests" class="hide-methods failed suite-Registration_and_login_tests"> (hide)</a> <!-- hide-methods failed suite-Registration_and_login_tests -->
+                      <a href="#" panel-name="suite-Registration_and_login_tests" class="show-methods failed suite-Registration_and_login_tests"> (show)</a> <!-- show-methods failed suite-Registration_and_login_tests -->
+                    </span>
+                    <div class="method-list-content failed suite-Registration_and_login_tests">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailCorrectDataTest(ivan@mail_mail.ru )">fillEmailCorrectDataTest(ivan@mail_mail.ru )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailCorrectDataTest(IVAN@почта.рф)">fillEmailCorrectDataTest(IVAN@почта.рф)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillFirstNameIncorrectDataTest(2)">fillFirstNameIncorrectDataTest(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillFirstNameIncorrectDataTest(=)">fillFirstNameIncorrectDataTest(=)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillLastNameIncorrectDataTest(Bulkin12)">fillLastNameIncorrectDataTest(Bulkin12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillLastNameIncorrectDataTest(Bulkin%)">fillLastNameIncorrectDataTest(Bulkin%)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillLastNameIncorrectDataTest(2)">fillLastNameIncorrectDataTest(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillLastNameIncorrectDataTest(Булкин2)">fillLastNameIncorrectDataTest(Булкин2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillLastNameIncorrectDataTest(Булкин+)">fillLastNameIncorrectDataTest(Булкин+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillLastNameIncorrectDataTest(Булкин*!)">fillLastNameIncorrectDataTest(Булкин*!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Registration_and_login_tests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Registration_and_login_tests" class="hide-methods passed suite-Registration_and_login_tests"> (hide)</a> <!-- hide-methods passed suite-Registration_and_login_tests -->
+                      <a href="#" panel-name="suite-Registration_and_login_tests" class="show-methods passed suite-Registration_and_login_tests"> (show)</a> <!-- show-methods passed suite-Registration_and_login_tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Registration_and_login_tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="checkRequiredFieldsTest(password)">checkRequiredFieldsTest(password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="checkRequiredFieldsTest(firstName)">checkRequiredFieldsTest(firstName)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="checkRequiredFieldsTest(lastName)">checkRequiredFieldsTest(lastName)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="checkRequiredFieldsTest(email)">checkRequiredFieldsTest(email)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="checkRequiredFieldsTest(confirmPassword)">checkRequiredFieldsTest(confirmPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailCorrectDataTest(bulkin_ivan@mail12.ru)">fillEmailCorrectDataTest(bulkin_ivan@mail12.ru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailCorrectDataTest(IVAN@mail.ru)">fillEmailCorrectDataTest(IVAN@mail.ru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailCorrectDataTest(bulkin-ivan@mail.ru)">fillEmailCorrectDataTest(bulkin-ivan@mail.ru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailCorrectDataTest(ivan@mail-mail.ru)">fillEmailCorrectDataTest(ivan@mail-mail.ru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailCorrectDataTest(bulkin.ivan@mail.ru)">fillEmailCorrectDataTest(bulkin.ivan@mail.ru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailCorrectDataTest(bulkin25@mail.ru)">fillEmailCorrectDataTest(bulkin25@mail.ru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailIncorrectDataTest(Iivan@ma%il.ru)">fillEmailIncorrectDataTest(Iivan@ma%il.ru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailIncorrectDataTest(bulkin ivan@mail.ru)">fillEmailIncorrectDataTest(bulkin ivan@mail.ru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailIncorrectDataTest(ivan#mail.ru)">fillEmailIncorrectDataTest(ivan#mail.ru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailIncorrectDataTest(ivan@mail mail.ru)">fillEmailIncorrectDataTest(ivan@mail mail.ru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailIncorrectDataTest(ivan@.ru)">fillEmailIncorrectDataTest(ivan@.ru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailIncorrectDataTest(@mail.ru)">fillEmailIncorrectDataTest(@mail.ru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailIncorrectDataTest(bulkin@mail)">fillEmailIncorrectDataTest(bulkin@mail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillEmailIncorrectDataTest( )">fillEmailIncorrectDataTest( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillFirstNameCorrectDataTest(Ivan)">fillFirstNameCorrectDataTest(Ivan)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillFirstNameCorrectDataTest(I)">fillFirstNameCorrectDataTest(I)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillFirstNameCorrectDataTest(И)">fillFirstNameCorrectDataTest(И)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillFirstNameCorrectDataTest(Иван Иван)">fillFirstNameCorrectDataTest(Иван Иван)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillFirstNameCorrectDataTest( Иван )">fillFirstNameCorrectDataTest( Иван )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillFirstNameCorrectDataTest(Иван-Иван)">fillFirstNameCorrectDataTest(Иван-Иван)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillFirstNameIncorrectDataTest(Иван*!)">fillFirstNameIncorrectDataTest(Иван*!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillFirstNameIncorrectDataTest(Иван+)">fillFirstNameIncorrectDataTest(Иван+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillFirstNameIncorrectDataTest(Ivan%)">fillFirstNameIncorrectDataTest(Ivan%)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillFirstNameIncorrectDataTest( )">fillFirstNameIncorrectDataTest( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillFirstNameIncorrectDataTest(Иван2)">fillFirstNameIncorrectDataTest(Иван2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillFirstNameIncorrectDataTest(Ivan12)">fillFirstNameIncorrectDataTest(Ivan12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillLastNameCorrectDataTest( Булкин )">fillLastNameCorrectDataTest( Булкин )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillLastNameCorrectDataTest(B)">fillLastNameCorrectDataTest(B)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillLastNameCorrectDataTest(Булкин Плюшкин)">fillLastNameCorrectDataTest(Булкин Плюшкин)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillLastNameCorrectDataTest(Б)">fillLastNameCorrectDataTest(Б)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillLastNameCorrectDataTest(Bulkin)">fillLastNameCorrectDataTest(Bulkin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillLastNameCorrectDataTest(Бул-кин)">fillLastNameCorrectDataTest(Бул-кин)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillLastNameIncorrectDataTest( )">fillLastNameIncorrectDataTest( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillLastNameIncorrectDataTest(=)">fillLastNameIncorrectDataTest(=)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillPasswordCorrectDataTest(12345t)">fillPasswordCorrectDataTest(12345t)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillPasswordCorrectDataTest(12345)">fillPasswordCorrectDataTest(12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillPasswordCorrectDataTest( 12345 )">fillPasswordCorrectDataTest( 12345 )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillPasswordIncorrectDataTest(1)">fillPasswordIncorrectDataTest(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillPasswordIncorrectDataTest( )">fillPasswordIncorrectDataTest( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="fillPasswordIncorrectDataTest(1234)">fillPasswordIncorrectDataTest(1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.LoginTests" hash-for-method="loginWithWrongPasswordOrLoginTest(regtest.2020@mail.ru, wrongpassword)">loginWithWrongPasswordOrLoginTest(regtest.2020@mail.ru, wrongpassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.LoginTests" hash-for-method="loginWithWrongPasswordOrLoginTest(wronglogin@df.er, 12345)">loginWithWrongPasswordOrLoginTest(wronglogin@df.er, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="passwordNotConfirmedTest">passwordNotConfirmedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="registrationWithExistEmailTest">registrationWithExistEmailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.LoginTests" hash-for-method="successfulLoginTest(regtest.2020@mail.ru, 12345)">successfulLoginTest(regtest.2020@mail.ru, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.LoginTests" hash-for-method="successfulLoginTest( regtest.2020@mail.ru ,  12345 )">successfulLoginTest( regtest.2020@mail.ru ,  12345 )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Registration_and_login_tests" title="ru.mail.regtest2020.tests.RegistrationTests" hash-for-method="successfulRegistrationTest">successfulRegistrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Registration_and_login_tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Registration_and_login_tests" class="panel Registration_and_login_tests">
+          <div class="suite-Registration_and_login_tests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ru.mail.regtest2020.tests.RegistrationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailCorrectDataTest(ivan@mail_mail.ru )">
+                  </a> <!-- fillEmailCorrectDataTest(ivan@mail_mail.ru ) -->
+                  <span class="method-name">fillEmailCorrectDataTest</span>
+                  <span class="parameters">(ivan@mail_mail.ru )</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillEmailCorrectDataTest(RegistrationTests.java:150)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailCorrectDataTest(IVAN@почта.рф)">
+                  </a> <!-- fillEmailCorrectDataTest(IVAN@почта.рф) -->
+                  <span class="method-name">fillEmailCorrectDataTest</span>
+                  <span class="parameters">(IVAN@почта.рф)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillEmailCorrectDataTest(RegistrationTests.java:150)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFirstNameIncorrectDataTest(2)">
+                  </a> <!-- fillFirstNameIncorrectDataTest(2) -->
+                  <span class="method-name">fillFirstNameIncorrectDataTest</span>
+                  <span class="parameters">(2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillFirstNameIncorrectDataTest(RegistrationTests.java:111)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFirstNameIncorrectDataTest(=)">
+                  </a> <!-- fillFirstNameIncorrectDataTest(=) -->
+                  <span class="method-name">fillFirstNameIncorrectDataTest</span>
+                  <span class="parameters">(=)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillFirstNameIncorrectDataTest(RegistrationTests.java:111)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillLastNameIncorrectDataTest(Bulkin12)">
+                  </a> <!-- fillLastNameIncorrectDataTest(Bulkin12) -->
+                  <span class="method-name">fillLastNameIncorrectDataTest</span>
+                  <span class="parameters">(Bulkin12)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest(RegistrationTests.java:85)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillLastNameIncorrectDataTest(Bulkin%)">
+                  </a> <!-- fillLastNameIncorrectDataTest(Bulkin%) -->
+                  <span class="method-name">fillLastNameIncorrectDataTest</span>
+                  <span class="parameters">(Bulkin%)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest(RegistrationTests.java:85)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillLastNameIncorrectDataTest(2)">
+                  </a> <!-- fillLastNameIncorrectDataTest(2) -->
+                  <span class="method-name">fillLastNameIncorrectDataTest</span>
+                  <span class="parameters">(2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest(RegistrationTests.java:85)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillLastNameIncorrectDataTest(Булкин2)">
+                  </a> <!-- fillLastNameIncorrectDataTest(Булкин2) -->
+                  <span class="method-name">fillLastNameIncorrectDataTest</span>
+                  <span class="parameters">(Булкин2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest(RegistrationTests.java:85)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillLastNameIncorrectDataTest(Булкин+)">
+                  </a> <!-- fillLastNameIncorrectDataTest(Булкин+) -->
+                  <span class="method-name">fillLastNameIncorrectDataTest</span>
+                  <span class="parameters">(Булкин+)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest(RegistrationTests.java:85)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillLastNameIncorrectDataTest(Булкин*!)">
+                  </a> <!-- fillLastNameIncorrectDataTest(Булкин*!) -->
+                  <span class="method-name">fillLastNameIncorrectDataTest</span>
+                  <span class="parameters">(Булкин*!)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ru.mail.regtest2020.tests.RegistrationTests.fillLastNameIncorrectDataTest(RegistrationTests.java:85)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Registration_and_login_tests-class-failed -->
+          <div class="suite-Registration_and_login_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.mail.regtest2020.tests.RegistrationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRequiredFieldsTest(password)">
+                  </a> <!-- checkRequiredFieldsTest(password) -->
+                  <span class="method-name">checkRequiredFieldsTest</span>
+                  <span class="parameters">(password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRequiredFieldsTest(firstName)">
+                  </a> <!-- checkRequiredFieldsTest(firstName) -->
+                  <span class="method-name">checkRequiredFieldsTest</span>
+                  <span class="parameters">(firstName)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRequiredFieldsTest(lastName)">
+                  </a> <!-- checkRequiredFieldsTest(lastName) -->
+                  <span class="method-name">checkRequiredFieldsTest</span>
+                  <span class="parameters">(lastName)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRequiredFieldsTest(email)">
+                  </a> <!-- checkRequiredFieldsTest(email) -->
+                  <span class="method-name">checkRequiredFieldsTest</span>
+                  <span class="parameters">(email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRequiredFieldsTest(confirmPassword)">
+                  </a> <!-- checkRequiredFieldsTest(confirmPassword) -->
+                  <span class="method-name">checkRequiredFieldsTest</span>
+                  <span class="parameters">(confirmPassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailCorrectDataTest(bulkin_ivan@mail12.ru)">
+                  </a> <!-- fillEmailCorrectDataTest(bulkin_ivan@mail12.ru) -->
+                  <span class="method-name">fillEmailCorrectDataTest</span>
+                  <span class="parameters">(bulkin_ivan@mail12.ru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailCorrectDataTest(IVAN@mail.ru)">
+                  </a> <!-- fillEmailCorrectDataTest(IVAN@mail.ru) -->
+                  <span class="method-name">fillEmailCorrectDataTest</span>
+                  <span class="parameters">(IVAN@mail.ru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailCorrectDataTest(bulkin-ivan@mail.ru)">
+                  </a> <!-- fillEmailCorrectDataTest(bulkin-ivan@mail.ru) -->
+                  <span class="method-name">fillEmailCorrectDataTest</span>
+                  <span class="parameters">(bulkin-ivan@mail.ru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailCorrectDataTest(ivan@mail-mail.ru)">
+                  </a> <!-- fillEmailCorrectDataTest(ivan@mail-mail.ru) -->
+                  <span class="method-name">fillEmailCorrectDataTest</span>
+                  <span class="parameters">(ivan@mail-mail.ru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailCorrectDataTest(bulkin.ivan@mail.ru)">
+                  </a> <!-- fillEmailCorrectDataTest(bulkin.ivan@mail.ru) -->
+                  <span class="method-name">fillEmailCorrectDataTest</span>
+                  <span class="parameters">(bulkin.ivan@mail.ru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailCorrectDataTest(bulkin25@mail.ru)">
+                  </a> <!-- fillEmailCorrectDataTest(bulkin25@mail.ru) -->
+                  <span class="method-name">fillEmailCorrectDataTest</span>
+                  <span class="parameters">(bulkin25@mail.ru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailIncorrectDataTest(Iivan@ma%il.ru)">
+                  </a> <!-- fillEmailIncorrectDataTest(Iivan@ma%il.ru) -->
+                  <span class="method-name">fillEmailIncorrectDataTest</span>
+                  <span class="parameters">(Iivan@ma%il.ru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailIncorrectDataTest(bulkin ivan@mail.ru)">
+                  </a> <!-- fillEmailIncorrectDataTest(bulkin ivan@mail.ru) -->
+                  <span class="method-name">fillEmailIncorrectDataTest</span>
+                  <span class="parameters">(bulkin ivan@mail.ru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailIncorrectDataTest(ivan#mail.ru)">
+                  </a> <!-- fillEmailIncorrectDataTest(ivan#mail.ru) -->
+                  <span class="method-name">fillEmailIncorrectDataTest</span>
+                  <span class="parameters">(ivan#mail.ru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailIncorrectDataTest(ivan@mail mail.ru)">
+                  </a> <!-- fillEmailIncorrectDataTest(ivan@mail mail.ru) -->
+                  <span class="method-name">fillEmailIncorrectDataTest</span>
+                  <span class="parameters">(ivan@mail mail.ru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailIncorrectDataTest(ivan@.ru)">
+                  </a> <!-- fillEmailIncorrectDataTest(ivan@.ru) -->
+                  <span class="method-name">fillEmailIncorrectDataTest</span>
+                  <span class="parameters">(ivan@.ru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailIncorrectDataTest(@mail.ru)">
+                  </a> <!-- fillEmailIncorrectDataTest(@mail.ru) -->
+                  <span class="method-name">fillEmailIncorrectDataTest</span>
+                  <span class="parameters">(@mail.ru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailIncorrectDataTest(bulkin@mail)">
+                  </a> <!-- fillEmailIncorrectDataTest(bulkin@mail) -->
+                  <span class="method-name">fillEmailIncorrectDataTest</span>
+                  <span class="parameters">(bulkin@mail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillEmailIncorrectDataTest( )">
+                  </a> <!-- fillEmailIncorrectDataTest( ) -->
+                  <span class="method-name">fillEmailIncorrectDataTest</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFirstNameCorrectDataTest(Ivan)">
+                  </a> <!-- fillFirstNameCorrectDataTest(Ivan) -->
+                  <span class="method-name">fillFirstNameCorrectDataTest</span>
+                  <span class="parameters">(Ivan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFirstNameCorrectDataTest(I)">
+                  </a> <!-- fillFirstNameCorrectDataTest(I) -->
+                  <span class="method-name">fillFirstNameCorrectDataTest</span>
+                  <span class="parameters">(I)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFirstNameCorrectDataTest(И)">
+                  </a> <!-- fillFirstNameCorrectDataTest(И) -->
+                  <span class="method-name">fillFirstNameCorrectDataTest</span>
+                  <span class="parameters">(И)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFirstNameCorrectDataTest(Иван Иван)">
+                  </a> <!-- fillFirstNameCorrectDataTest(Иван Иван) -->
+                  <span class="method-name">fillFirstNameCorrectDataTest</span>
+                  <span class="parameters">(Иван Иван)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFirstNameCorrectDataTest( Иван )">
+                  </a> <!-- fillFirstNameCorrectDataTest( Иван ) -->
+                  <span class="method-name">fillFirstNameCorrectDataTest</span>
+                  <span class="parameters">( Иван )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFirstNameCorrectDataTest(Иван-Иван)">
+                  </a> <!-- fillFirstNameCorrectDataTest(Иван-Иван) -->
+                  <span class="method-name">fillFirstNameCorrectDataTest</span>
+                  <span class="parameters">(Иван-Иван)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFirstNameIncorrectDataTest(Иван*!)">
+                  </a> <!-- fillFirstNameIncorrectDataTest(Иван*!) -->
+                  <span class="method-name">fillFirstNameIncorrectDataTest</span>
+                  <span class="parameters">(Иван*!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFirstNameIncorrectDataTest(Иван+)">
+                  </a> <!-- fillFirstNameIncorrectDataTest(Иван+) -->
+                  <span class="method-name">fillFirstNameIncorrectDataTest</span>
+                  <span class="parameters">(Иван+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFirstNameIncorrectDataTest(Ivan%)">
+                  </a> <!-- fillFirstNameIncorrectDataTest(Ivan%) -->
+                  <span class="method-name">fillFirstNameIncorrectDataTest</span>
+                  <span class="parameters">(Ivan%)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFirstNameIncorrectDataTest( )">
+                  </a> <!-- fillFirstNameIncorrectDataTest( ) -->
+                  <span class="method-name">fillFirstNameIncorrectDataTest</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFirstNameIncorrectDataTest(Иван2)">
+                  </a> <!-- fillFirstNameIncorrectDataTest(Иван2) -->
+                  <span class="method-name">fillFirstNameIncorrectDataTest</span>
+                  <span class="parameters">(Иван2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFirstNameIncorrectDataTest(Ivan12)">
+                  </a> <!-- fillFirstNameIncorrectDataTest(Ivan12) -->
+                  <span class="method-name">fillFirstNameIncorrectDataTest</span>
+                  <span class="parameters">(Ivan12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillLastNameCorrectDataTest( Булкин )">
+                  </a> <!-- fillLastNameCorrectDataTest( Булкин ) -->
+                  <span class="method-name">fillLastNameCorrectDataTest</span>
+                  <span class="parameters">( Булкин )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillLastNameCorrectDataTest(B)">
+                  </a> <!-- fillLastNameCorrectDataTest(B) -->
+                  <span class="method-name">fillLastNameCorrectDataTest</span>
+                  <span class="parameters">(B)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillLastNameCorrectDataTest(Булкин Плюшкин)">
+                  </a> <!-- fillLastNameCorrectDataTest(Булкин Плюшкин) -->
+                  <span class="method-name">fillLastNameCorrectDataTest</span>
+                  <span class="parameters">(Булкин Плюшкин)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillLastNameCorrectDataTest(Б)">
+                  </a> <!-- fillLastNameCorrectDataTest(Б) -->
+                  <span class="method-name">fillLastNameCorrectDataTest</span>
+                  <span class="parameters">(Б)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillLastNameCorrectDataTest(Bulkin)">
+                  </a> <!-- fillLastNameCorrectDataTest(Bulkin) -->
+                  <span class="method-name">fillLastNameCorrectDataTest</span>
+                  <span class="parameters">(Bulkin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillLastNameCorrectDataTest(Бул-кин)">
+                  </a> <!-- fillLastNameCorrectDataTest(Бул-кин) -->
+                  <span class="method-name">fillLastNameCorrectDataTest</span>
+                  <span class="parameters">(Бул-кин)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillLastNameIncorrectDataTest( )">
+                  </a> <!-- fillLastNameIncorrectDataTest( ) -->
+                  <span class="method-name">fillLastNameIncorrectDataTest</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillLastNameIncorrectDataTest(=)">
+                  </a> <!-- fillLastNameIncorrectDataTest(=) -->
+                  <span class="method-name">fillLastNameIncorrectDataTest</span>
+                  <span class="parameters">(=)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillPasswordCorrectDataTest(12345t)">
+                  </a> <!-- fillPasswordCorrectDataTest(12345t) -->
+                  <span class="method-name">fillPasswordCorrectDataTest</span>
+                  <span class="parameters">(12345t)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillPasswordCorrectDataTest(12345)">
+                  </a> <!-- fillPasswordCorrectDataTest(12345) -->
+                  <span class="method-name">fillPasswordCorrectDataTest</span>
+                  <span class="parameters">(12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillPasswordCorrectDataTest( 12345 )">
+                  </a> <!-- fillPasswordCorrectDataTest( 12345 ) -->
+                  <span class="method-name">fillPasswordCorrectDataTest</span>
+                  <span class="parameters">( 12345 )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillPasswordIncorrectDataTest(1)">
+                  </a> <!-- fillPasswordIncorrectDataTest(1) -->
+                  <span class="method-name">fillPasswordIncorrectDataTest</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillPasswordIncorrectDataTest( )">
+                  </a> <!-- fillPasswordIncorrectDataTest( ) -->
+                  <span class="method-name">fillPasswordIncorrectDataTest</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillPasswordIncorrectDataTest(1234)">
+                  </a> <!-- fillPasswordIncorrectDataTest(1234) -->
+                  <span class="method-name">fillPasswordIncorrectDataTest</span>
+                  <span class="parameters">(1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordNotConfirmedTest">
+                  </a> <!-- passwordNotConfirmedTest -->
+                  <span class="method-name">passwordNotConfirmedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationWithExistEmailTest">
+                  </a> <!-- registrationWithExistEmailTest -->
+                  <span class="method-name">registrationWithExistEmailTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulRegistrationTest">
+                  </a> <!-- successfulRegistrationTest -->
+                  <span class="method-name">successfulRegistrationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Registration_and_login_tests-class-passed -->
+          <div class="suite-Registration_and_login_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.mail.regtest2020.tests.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithWrongPasswordOrLoginTest(regtest.2020@mail.ru, wrongpassword)">
+                  </a> <!-- loginWithWrongPasswordOrLoginTest(regtest.2020@mail.ru, wrongpassword) -->
+                  <span class="method-name">loginWithWrongPasswordOrLoginTest</span>
+                  <span class="parameters">(regtest.2020@mail.ru, wrongpassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithWrongPasswordOrLoginTest(wronglogin@df.er, 12345)">
+                  </a> <!-- loginWithWrongPasswordOrLoginTest(wronglogin@df.er, 12345) -->
+                  <span class="method-name">loginWithWrongPasswordOrLoginTest</span>
+                  <span class="parameters">(wronglogin@df.er, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulLoginTest(regtest.2020@mail.ru, 12345)">
+                  </a> <!-- successfulLoginTest(regtest.2020@mail.ru, 12345) -->
+                  <span class="method-name">successfulLoginTest</span>
+                  <span class="parameters">(regtest.2020@mail.ru, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulLoginTest( regtest.2020@mail.ru ,  12345 )">
+                  </a> <!-- successfulLoginTest( regtest.2020@mail.ru ,  12345 ) -->
+                  <span class="method-name">successfulLoginTest</span>
+                  <span class="parameters">( regtest.2020@mail.ru ,  12345 )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Registration_and_login_tests-class-passed -->
+        </div> <!-- panel Registration_and_login_tests -->
+        <div panel-name="test-xml-Registration_and_login_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Centr\regtests\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Registration and login tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Registration and Login tests&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;ru.mail.regtest2020.tests&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ru.mail.regtest2020.tests.BaseTest&quot;/&gt;
+      &lt;class name=&quot;ru.mail.regtest2020.tests.LoginTests&quot;/&gt;
+      &lt;class name=&quot;ru.mail.regtest2020.tests.RegistrationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Registration and Login tests --&gt;
+&lt;/suite&gt; &lt;!-- Registration and login tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Registration_and_login_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Registration and login tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Registration and Login tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Registration_and_login_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Registration and login tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Registration_and_login_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Registration and login tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Registration_and_login_tests');
+function tableData_Registration_and_login_tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(62);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'successfulLoginTest')
+data.setCell(0, 2, 'ru.mail.regtest2020.tests.LoginTests')
+data.setCell(0, 3, 7383);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'successfulLoginTest')
+data.setCell(1, 2, 'ru.mail.regtest2020.tests.LoginTests')
+data.setCell(1, 3, 7034);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fillEmailCorrectDataTest')
+data.setCell(2, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(2, 3, 6165);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'fillEmailCorrectDataTest')
+data.setCell(3, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(3, 3, 5977);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'fillEmailCorrectDataTest')
+data.setCell(4, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(4, 3, 5937);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'fillEmailCorrectDataTest')
+data.setCell(5, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(5, 3, 5884);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'fillFirstNameCorrectDataTest')
+data.setCell(6, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(6, 3, 5850);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'fillEmailCorrectDataTest')
+data.setCell(7, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(7, 3, 5843);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'fillEmailCorrectDataTest')
+data.setCell(8, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(8, 3, 5826);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'fillLastNameIncorrectDataTest')
+data.setCell(9, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(9, 3, 5809);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'fillFirstNameCorrectDataTest')
+data.setCell(10, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(10, 3, 5780);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'fillFirstNameCorrectDataTest')
+data.setCell(11, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(11, 3, 5693);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'fillLastNameIncorrectDataTest')
+data.setCell(12, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(12, 3, 5673);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'fillPasswordCorrectDataTest')
+data.setCell(13, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(13, 3, 5671);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'fillPasswordCorrectDataTest')
+data.setCell(14, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(14, 3, 5658);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'fillLastNameCorrectDataTest')
+data.setCell(15, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(15, 3, 5642);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'fillLastNameIncorrectDataTest')
+data.setCell(16, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(16, 3, 5639);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'fillPasswordCorrectDataTest')
+data.setCell(17, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(17, 3, 5636);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'fillLastNameCorrectDataTest')
+data.setCell(18, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(18, 3, 5629);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'fillFirstNameCorrectDataTest')
+data.setCell(19, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(19, 3, 5628);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'fillFirstNameIncorrectDataTest')
+data.setCell(20, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(20, 3, 5585);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'fillLastNameCorrectDataTest')
+data.setCell(21, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(21, 3, 5583);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'fillFirstNameCorrectDataTest')
+data.setCell(22, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(22, 3, 5581);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'fillLastNameCorrectDataTest')
+data.setCell(23, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(23, 3, 5569);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'fillFirstNameCorrectDataTest')
+data.setCell(24, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(24, 3, 5568);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'fillLastNameIncorrectDataTest')
+data.setCell(25, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(25, 3, 5561);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'fillLastNameIncorrectDataTest')
+data.setCell(26, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(26, 3, 5552);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'fillFirstNameIncorrectDataTest')
+data.setCell(27, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(27, 3, 5550);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'fillLastNameCorrectDataTest')
+data.setCell(28, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(28, 3, 5524);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'fillLastNameIncorrectDataTest')
+data.setCell(29, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(29, 3, 5500);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'fillLastNameCorrectDataTest')
+data.setCell(30, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(30, 3, 5494);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'successfulRegistrationTest')
+data.setCell(31, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(31, 3, 4399);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'loginWithWrongPasswordOrLoginTest')
+data.setCell(32, 2, 'ru.mail.regtest2020.tests.LoginTests')
+data.setCell(32, 3, 3506);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'loginWithWrongPasswordOrLoginTest')
+data.setCell(33, 2, 'ru.mail.regtest2020.tests.LoginTests')
+data.setCell(33, 3, 3446);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'checkRequiredFieldsTest')
+data.setCell(34, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(34, 3, 1927);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'fillEmailIncorrectDataTest')
+data.setCell(35, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(35, 3, 1797);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'fillEmailIncorrectDataTest')
+data.setCell(36, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(36, 3, 1263);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'checkRequiredFieldsTest')
+data.setCell(37, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(37, 3, 1117);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'registrationWithExistEmailTest')
+data.setCell(38, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(38, 3, 1063);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'fillEmailIncorrectDataTest')
+data.setCell(39, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(39, 3, 961);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'fillEmailIncorrectDataTest')
+data.setCell(40, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(40, 3, 955);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'fillEmailIncorrectDataTest')
+data.setCell(41, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(41, 3, 951);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'checkRequiredFieldsTest')
+data.setCell(42, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(42, 3, 939);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'fillPasswordIncorrectDataTest')
+data.setCell(43, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(43, 3, 901);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'fillEmailIncorrectDataTest')
+data.setCell(44, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(44, 3, 888);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'fillEmailIncorrectDataTest')
+data.setCell(45, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(45, 3, 885);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'checkRequiredFieldsTest')
+data.setCell(46, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(46, 3, 866);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'fillEmailCorrectDataTest')
+data.setCell(47, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(47, 3, 767);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'fillPasswordIncorrectDataTest')
+data.setCell(48, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(48, 3, 755);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'fillFirstNameIncorrectDataTest')
+data.setCell(49, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(49, 3, 754);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'checkRequiredFieldsTest')
+data.setCell(50, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(50, 3, 734);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'fillPasswordIncorrectDataTest')
+data.setCell(51, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(51, 3, 725);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'fillFirstNameIncorrectDataTest')
+data.setCell(52, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(52, 3, 720);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'fillEmailIncorrectDataTest')
+data.setCell(53, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(53, 3, 678);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'fillEmailCorrectDataTest')
+data.setCell(54, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(54, 3, 677);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'fillFirstNameIncorrectDataTest')
+data.setCell(55, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(55, 3, 600);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'fillFirstNameIncorrectDataTest')
+data.setCell(56, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(56, 3, 595);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'fillLastNameIncorrectDataTest')
+data.setCell(57, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(57, 3, 540);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'fillFirstNameIncorrectDataTest')
+data.setCell(58, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(58, 3, 539);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'fillLastNameIncorrectDataTest')
+data.setCell(59, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(59, 3, 521);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'fillFirstNameIncorrectDataTest')
+data.setCell(60, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(60, 3, 514);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'passwordNotConfirmedTest')
+data.setCell(61, 2, 'ru.mail.regtest2020.tests.RegistrationTests')
+data.setCell(61, 3, 286);
+window.suiteTableData['Registration_and_login_tests']= { tableData: data, tableDiv: 'times-div-Registration_and_login_tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Registration_and_login_tests">
+              </div> <!-- times-div-Registration_and_login_tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Registration_and_login_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Registration and login tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Registration_and_login_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Registration_and_login_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.mail.regtest2020.tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">11788 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">refreshPage</span>
+                <span class="method-start">32761 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithWrongPasswordOrLoginTest(regtest.2020@mail.ru, wrongpassword)</span>
+                <span class="method-start">34063 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">refreshPage</span>
+                <span class="method-start">37569 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithWrongPasswordOrLoginTest(wronglogin@df.er, 12345)</span>
+                <span class="method-start">37904 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">refreshPage</span>
+                <span class="method-start">41427 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">successfulLoginTest(regtest.2020@mail.ru, 12345)</span>
+                <span class="method-start">41682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">refreshPage</span>
+                <span class="method-start">49074 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">successfulLoginTest( regtest.2020@mail.ru ,  12345 )</span>
+                <span class="method-start">50076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57121 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.mail.regtest2020.tests.RegistrationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">58158 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">61950 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkRequiredFieldsTest(firstName)</span>
+                <span class="method-start">87686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkRequiredFieldsTest(lastName)</span>
+                <span class="method-start">89620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkRequiredFieldsTest(email)</span>
+                <span class="method-start">90564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkRequiredFieldsTest(password)</span>
+                <span class="method-start">91305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkRequiredFieldsTest(confirmPassword)</span>
+                <span class="method-start">92428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillEmailCorrectDataTest(bulkin_ivan@mail12.ru)</span>
+                <span class="method-start">93303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillEmailCorrectDataTest(bulkin25@mail.ru)</span>
+                <span class="method-start">99476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillEmailCorrectDataTest(bulkin.ivan@mail.ru)</span>
+                <span class="method-start">105309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillEmailCorrectDataTest(bulkin-ivan@mail.ru)</span>
+                <span class="method-start">111253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillEmailCorrectDataTest(ivan@mail_mail.ru )</span>
+                <span class="method-start">117143 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillEmailCorrectDataTest(ivan@mail-mail.ru)</span>
+                <span class="method-start">117936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillEmailCorrectDataTest(IVAN@mail.ru)</span>
+                <span class="method-start">123919 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillEmailCorrectDataTest(IVAN@почта.рф)</span>
+                <span class="method-start">129774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillEmailIncorrectDataTest(bulkin ivan@mail.ru)</span>
+                <span class="method-start">130459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillEmailIncorrectDataTest(bulkin@mail)</span>
+                <span class="method-start">131423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillEmailIncorrectDataTest(ivan@.ru)</span>
+                <span class="method-start">132381 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillEmailIncorrectDataTest( )</span>
+                <span class="method-start">133273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillEmailIncorrectDataTest(ivan#mail.ru)</span>
+                <span class="method-start">133957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillEmailIncorrectDataTest(Iivan@ma%il.ru)</span>
+                <span class="method-start">135225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillEmailIncorrectDataTest(ivan@mail mail.ru)</span>
+                <span class="method-start">136147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillEmailIncorrectDataTest(@mail.ru)</span>
+                <span class="method-start">137114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillFirstNameCorrectDataTest(И)</span>
+                <span class="method-start">138922 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillFirstNameCorrectDataTest(Иван-Иван)</span>
+                <span class="method-start">144779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillFirstNameCorrectDataTest( Иван )</span>
+                <span class="method-start">150565 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillFirstNameCorrectDataTest(Ivan)</span>
+                <span class="method-start">156138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillFirstNameCorrectDataTest(I)</span>
+                <span class="method-start">161724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillFirstNameCorrectDataTest(Иван Иван)</span>
+                <span class="method-start">167357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillFirstNameIncorrectDataTest(Иван2)</span>
+                <span class="method-start">173057 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillFirstNameIncorrectDataTest(Иван+)</span>
+                <span class="method-start">173576 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillFirstNameIncorrectDataTest(Иван*!)</span>
+                <span class="method-start">174182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillFirstNameIncorrectDataTest( )</span>
+                <span class="method-start">174909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillFirstNameIncorrectDataTest(Ivan12)</span>
+                <span class="method-start">175453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillFirstNameIncorrectDataTest(Ivan%)</span>
+                <span class="method-start">176212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillFirstNameIncorrectDataTest(2)</span>
+                <span class="method-start">176812 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillFirstNameIncorrectDataTest(=)</span>
+                <span class="method-start">182404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillLastNameCorrectDataTest(Б)</span>
+                <span class="method-start">187961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillLastNameCorrectDataTest(Бул-кин)</span>
+                <span class="method-start">193460 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillLastNameCorrectDataTest( Булкин )</span>
+                <span class="method-start">199108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillLastNameCorrectDataTest(Bulkin)</span>
+                <span class="method-start">204696 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillLastNameCorrectDataTest(B)</span>
+                <span class="method-start">210228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillLastNameCorrectDataTest(Булкин Плюшкин)</span>
+                <span class="method-start">215802 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillLastNameIncorrectDataTest(Булкин2)</span>
+                <span class="method-start">221439 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillLastNameIncorrectDataTest(Булкин+)</span>
+                <span class="method-start">227118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillLastNameIncorrectDataTest(Булкин*!)</span>
+                <span class="method-start">232687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillLastNameIncorrectDataTest( )</span>
+                <span class="method-start">238362 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillLastNameIncorrectDataTest(Bulkin12)</span>
+                <span class="method-start">238890 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillLastNameIncorrectDataTest(Bulkin%)</span>
+                <span class="method-start">244705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillLastNameIncorrectDataTest(2)</span>
+                <span class="method-start">250264 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillLastNameIncorrectDataTest(=)</span>
+                <span class="method-start">255770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillPasswordCorrectDataTest(12345)</span>
+                <span class="method-start">256315 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillPasswordCorrectDataTest( 12345 )</span>
+                <span class="method-start">261957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillPasswordCorrectDataTest(12345t)</span>
+                <span class="method-start">267632 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillPasswordIncorrectDataTest( )</span>
+                <span class="method-start">273298 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillPasswordIncorrectDataTest(1234)</span>
+                <span class="method-start">274029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillPasswordIncorrectDataTest(1)</span>
+                <span class="method-start">274938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">passwordNotConfirmedTest</span>
+                <span class="method-start">275699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registrationWithExistEmailTest</span>
+                <span class="method-start">275990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">successfulRegistrationTest</span>
+                <span class="method-start">277058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">281462 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,10 @@
+ru\mail\regtest2020\helpers\ConfigProperties.class
+ru\mail\regtest2020\helpers\DataProviderLogin.class
+ru\mail\regtest2020\pages\BasePage.class
+ru\mail\regtest2020\tests\RegistrationTests.class
+ru\mail\regtest2020\tests\BaseTest.class
+ru\mail\regtest2020\tests\LoginTests.class
+ru\mail\regtest2020\helpers\DataProviderRegistration.class
+ru\mail\regtest2020\pages\RegistrationPage.class
+ru\mail\regtest2020\pages\MainPage.class
+ru\mail\regtest2020\helpers\EndPoints.class
